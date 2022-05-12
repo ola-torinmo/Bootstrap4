@@ -35,7 +35,7 @@
                 </ul>
                 <!--  introducing another link to the right of the navbar using the navbar-text in order to trigger the display of the modal -->
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#LoginModal">
+                    <a  id="loginBtn">
                         <span class="fa fa-sign-in"> Login</span>
                     </a>
 
@@ -104,7 +104,7 @@
                 <div class="col-12 col-sm-3">
                     <!-- linked to id=bottom -->
                     <!--  added a data-toggle, data-placement and a title attribute to the <a> tag in order to introduce a tooltip -->
-                    <a  class="btn btn-warning btn-block nav-link" data-toggle="modal" data-target="#Reserve">Reserve Table</a>
+                    <a  class="btn btn-warning btn-block nav-link"  id="reserveBtn">Reserve Table</a>
 
                 </div>
             </div>
@@ -395,6 +395,12 @@
     
                
                
+            });
+            $("#loginBtn").on("click",function(){
+                $("#LoginModal").modal("show");
+            });
+            $("#reserveBtn").on("click",function(){
+                $("#Reserve").modal("show");
             });
             
         });
