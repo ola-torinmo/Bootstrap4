@@ -1,7 +1,7 @@
 $lt-gray:#ddd;
-$background-dark:#512DA8;
-$background-light:#9575CD;
-$background-pale:#D1C4E9;
+$background-dark:#D0963E;
+
+$background-pale:#949494;
 
 //height variables
 $carousel-item-height: 300px;
@@ -25,8 +25,21 @@ $carousel-item-height: 300px;
 }
 .jumbotron{
     @include zero-margin(70px,30px);
-    background: $background-light;
+    background-image: url('background-adare-restaurant.jpg') ;
+    height: 70vh;
+    background-size: cover;
+    
+    background-position: center;
     color: floralwhite;
+    border-radius: 0px !important;
+    h1{
+        font-family: sabon ;
+        line-height: 1.5;
+        font-size: 3rem;}
+        p{
+            line-height: 1.5;
+            font-family:Arial, Helvetica, sans-serif;
+           }
 }
 address{
     font-size:80%;
@@ -35,12 +48,12 @@ address{
 }
 
 body{
-    padding:50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     z-index:0;
 }
-.navbar-dark{
-    background-color: $background-dark;
-}
+.navbar{
+    background-color: rgba(168, 165, 165, 0.452);
+   }
 .tab-content{
     border-left:  1px solid $lt-gray;
     border-right: 1px solid $lt-gray ;
@@ -82,3 +95,32 @@ body{
 .modal-body{
     background-color: $background-pale;
 }
+.navbar-toggler{
+    color: floralwhite !important;
+    border: none !important;
+    outline: none !important;
+  }
+  #reserveBtn{
+    
+    margin-top: 2rem;
+    color: floralwhite;
+  }
+  .btn-outline-light{
+    border-color: #D0963E;
+  }
+  .intro{
+    margin-top: 2.5rem;
+  }
+  .img-thumbnail{
+    width:15rem;
+    
+    border: none;
+  }
+  .media-body , .media-title{
+    padding-top: 5.5rem;
+  }
+  @media only screen and (max-width: 600px){
+    .img-thumbnail{
+      width:10rem ;
+    }
+  }

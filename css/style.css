@@ -1,3 +1,8 @@
+/* @font-face {
+  
+  src: url(..Sabon-Font\Sabon_BoldItalic.ttf);
+  font-family: sabon ;
+} */
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -9,15 +14,35 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #949494;
   margin: 0px auto;
   padding: 20px 0px; }
+  
 
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite; }
+  /* background: #9575CD; */
+  background-image: url('background-adare-restaurant.jpg') ;
+  height: 70vh;
+  background-size: cover;
+  
+  background-position: center;
+  color: floralwhite;
+  border-radius: 0px !important;
+ }
+ .jumbotron h1{
+  font-family: sabon ;
+  line-height: 1.5;
+  font-size: 3rem;
+ }
+ .jumbotron p{
+  line-height: 1.5;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+ .navbar{
+  background-color: rgba(168, 165, 165, 0.452);
+ }
 
 address {
   font-size: 80%;
@@ -25,11 +50,10 @@ address {
   color: #0f0f0f; }
 
 body {
-  padding: 50px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   z-index: 0; }
 
-.navbar-dark {
-  background-color: #512DA8; }
+
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -38,14 +62,15 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #512DA8; }
+  background:#D0963E ; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
-      min-height: 300px; }
+      min-height: 300px;
+      width: 26%; }
 
 #carouselButton {
   right: 0px;
@@ -57,11 +82,41 @@ body {
   margin-left: 200px; }
 
 .modal-header {
-  background: #512DA8; }
+  background: #D0963E; }
   .modal-header .modal-title {
     color: white; }
   .modal-header .close {
     color: floralwhite; }
 
 .modal-body {
-  background-color: #D1C4E9; }
+  background-color: #949494; }
+
+  .navbar-toggler{
+    color: floralwhite !important;
+    border: none !important;
+    outline: none !important;
+  }
+  #reserveBtn{
+    
+    margin-top: 2rem;
+    color: floralwhite;
+  }
+  .btn-outline-light{
+    border-color: #D0963E;
+  }
+  .intro{
+    margin-top: 2.5rem;
+  }
+  .img-thumbnail{
+    width:15rem;
+    
+    border: none;
+  }
+  .media-body , .media-title{
+    padding-top: 5.5rem;
+  }
+  @media only screen and (max-width: 600px){
+    .img-thumbnail{
+      width:10rem ;
+    }
+  }
