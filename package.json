@@ -47,11 +47,14 @@
   "dependencies": {
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
+    "cli": "^1.0.0",
     "font-awesome": "^4.7.0",
+    "glob-parent": "^5.1.2",
     "got": "^11.8.5",
     "grunt-sync": "^0.8.2",
     "jquery": "^3.3.1",
     "lodash": "^4.17.20",
+    "nth-check": "^2.0.1",
     "popper.js": "^1.16.1",
     "semver-regex": "^3.1.4",
     "uglify-js": "^2.6.0"
