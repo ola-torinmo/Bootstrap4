@@ -50,7 +50,7 @@
     "clean-css": "^4.1.11",
     "cli": "^1.0.0",
     "font-awesome": "^4.7.0",
-    "glob-parent": "^5.1.2",
+    "glob-parent": "^6.0.2",
     "got": "^11.8.5",
     "grunt-sync": "^0.8.2",
     "jquery": "^3.3.1",
