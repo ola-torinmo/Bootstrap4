@@ -48,7 +48,7 @@
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
     "clean-css": "^4.1.11",
-    "cli": "^1.0.0",
+    "cli": "^1.0.1",
     "font-awesome": "^4.7.0",
     "glob-parent": "^5.1.2",
     "got": "^11.8.5",
