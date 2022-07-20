@@ -45,7 +45,7 @@
     "usemin-cli": "^0.0.7"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^5.2.0",
     "bootstrap-social": "^5.1.1",
     "clean-css": "^4.1.11",
     "cli": "^1.0.0",
